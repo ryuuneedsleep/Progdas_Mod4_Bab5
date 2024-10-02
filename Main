@@ -11,6 +11,7 @@ public class Main {
     static  String thx(){
         return "Terima kasih sudah mempercayai Handoyo Travel Group :D";
     }
+
     public static void main(String[] Args) throws InterruptedException {
         Scanner input = new Scanner(System.in);
 
@@ -41,6 +42,7 @@ public class Main {
                 break;
             default:
                 System.out.println("Maaf tiket ke tujuan anda tidak ada :(");
+        }
         for (int i = 5; i >= 0; i--, Thread.sleep(1000)){
             System.out.print(i + "...");
         }
@@ -50,6 +52,10 @@ public class Main {
         //Memanggil Function tanpa parameter
         System.out.println(thx());
 
+        //Memanggil Method dengan parameter
+        Method obj2 = new Method();
+        obj2.harga(200000);
 
-    
+        System.out.println("Silahkan transfer ke rekening mas Handoyo yaaa!");
+    }
 }
