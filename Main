@@ -14,6 +14,11 @@ public class Main {
     public static void main(String[] Args) throws InterruptedException {
         Scanner input = new Scanner(System.in);
 
+        //Memanggil Function dengan parameter
+        System.out.println("Masukan nama anda :");
+        String nama = input.nextLine();
+        System.out.println(Main.sambutan(nama));
+
         //Inti
         System.out.println("Silahkan pilih Travel yang anda inginkan : ");
         System.out.println("1. Travel Jawa Barat");
