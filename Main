@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Main {
+
+    //Membuat Function dengan parameter
+    static String sambutan(String nama){
+        return "Halo " + nama + "!";
+    }
+
+    //Membuat Function tanpa parameter
+    static  String thx(){
+        return "Terima kasih sudah mempercayai Handoyo Travel Group :D";
+    }
