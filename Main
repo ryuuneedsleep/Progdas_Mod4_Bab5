@@ -37,11 +37,15 @@ public class Main {
                 break;
             default:
                 System.out.println("Maaf tiket ke tujuan anda tidak ada :(");
-for (int i = 5; i >= 0; i--, Thread.sleep(1000)){
+        for (int i = 5; i >= 0; i--, Thread.sleep(1000)){
             System.out.print(i + "...");
         }
         System.out.println(" ");
         System.out.println("Selamat tiket anda sudah berhasil diproses (^v^)b");
-        }
-    }
+
+        //Memanggil Function tanpa parameter
+        System.out.println(thx());
+
+
+    
 }
