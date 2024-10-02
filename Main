@@ -13,3 +13,23 @@ public class Main {
     }
     public static void main(String[] Args) throws InterruptedException {
         Scanner input = new Scanner(System.in);
+
+        //Inti
+        System.out.println("Silahkan pilih Travel yang anda inginkan : ");
+        System.out.println("1. Travel Jawa Barat");
+        System.out.println("2. Travel Jawa Timur");
+        System.out.println("3. Travel Jawa Tengah");
+        String Travel = input.nextLine();
+        switch (Travel){
+            case ("1") :
+                System.out.println("Tiket menuju Jawa Barat anda akan segera diproses, mohon ditunggu!");
+                break;
+            case ("2") :
+                System.out.println("Tiket menuju Jawa Timur anda akan segera diproses, mohon ditunggu!");
+                break;
+            case ("3") :
+                System.out.println("Tiket menuju Jawa Tengah anda akan segera diproses, mohon ditunggu!");
+                break;
+            default:
+                System.out.println("Maaf tiket ke tujuan anda tidak ada :(");
+        }
