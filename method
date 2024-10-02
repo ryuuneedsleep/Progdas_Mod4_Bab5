@@ -1,0 +1,8 @@
+class Method {
+    public void greet() {
+        System.out.println("Selamat datang di Handoyo Travel Group!");
+    }
+    public void harga(int harga){
+        System.out.println("Harga tiketnya adalah Rp " + harga);
+    }
+}
