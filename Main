@@ -11,3 +11,5 @@ public class Main {
     static  String thx(){
         return "Terima kasih sudah mempercayai Handoyo Travel Group :D";
     }
+    public static void main(String[] Args) throws InterruptedException {
+        Scanner input = new Scanner(System.in);
